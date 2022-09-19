@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    background-color: #F5E8E4;
+}
+
+.headshot {
+    border-radius: 50%;
+    margin-top: 50px;
+    height: 250px;
+}
+.moving-star {
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.arrow-star {
+    height: 300px;
+    position: absolute;
+    bottom: 230px;
+    left: 80px
+}
+.top {
+    text-align: center;
+    background-color: #F5C7A9;
+    color: #D1512D;
+    padding: 180px 300px 30px 300px;
+    font-family: 'Oswald', sans-serif;
+    height: 625px;
+    border-bottom-style: solid;
+    border-width: 10px;
+
+}
+.middle { 
+    text-align: center;
+    background-color:#f5e8e4;
+    color:black;
+    padding: 50px 0 0 0;
+
+}
+.bottom {
+    text-align: center;
+    background-color: #F5C7A9;
+    color: #D1512D;
+    padding: 8px;
+    font-size: 20px;
+    border-width: 10px;
+    border-top-style: solid;
+
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color:#D1512D;
+    font-size: 30px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #D1512D;
+    font-size: 22px;
+
+}
+.hello{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+a:link {
+    color: #D1512D;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#800020;
+    font-style: italic;
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+.button {
+    
+    margin: 0 auto 10px auto;
+    background-color: #D1512D;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #800020;
+    color: #f5ebe8;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 18px 35px;
+    text-align: center;
+
+}
+hr {
+    border-top: 8px dotted #800020;
+    border-bottom: none;
+    width: 90%;
+}
+
+.language{
+
+    width: 35%;
+    margin: 50px auto; 
+    padding-bottom: 100px;
+    height:200px
+}
+.language-image {
+
+    float:left;
+    width: 40%;
+    height:220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.column {
+    display: inline-block;
+}
+.language-list{
+    float: right;
+    width: 60%;
+    height: 200px;    
+
+    
+}
+.small-image {
+   height: 180px;
+   border: solid;
+   border-radius: 75px;
+   background-color: rgb(255, 255, 255);
+   border-width: 5px;
+
+}
+ul {
+    list-style-type: none;  
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.leadership{
+    width: 35%;
+    margin: 50px auto; 
+    padding-bottom: 100px;
+    height:200px
+}
+.leadership-image{
+    float:left;
+    width: 30%;
+    height:220px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.leadership-list{
+    float: right;
+    width: 60%;
+    height: 200px;  
+}
+
+.skills{
+    width: 35%;
+    margin: 50px auto; 
+    padding-bottom: 100px;
+    height:200px
+}
+
+.skills-image{
+    float:left;
+    width: 40%;
+    height: 220px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.skills-list{
+    float: right;
+    width:40%;
+    height: 200px;  
+}
+
+.trophy-image {
+    height: 160px;
+    border: solid;
+    border-radius: 75px;
+    background-color: #800020;
+    border-width: 5px;
+ 
+ }
+ .contact {
+    background-color: #F5C7A9;
+    color: #D1512D;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+ }
+ .info {
+    padding: 50px;
+ }
+ .message{
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+ }
+
+.text {
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.input {
+    float:right;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 220px;
+    height: 20px
+    
+}
+
+.submit {
+    padding: 4px 10px 4px 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+dt{
+    margin-top: 7px;
+}
+
+.form {
+    width: 20%;
+    margin: 50px auto; 
+    padding-bottom: 100px;
+    height:200px
+}
+
+.left{
+    float:left;
+    width: 30%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    height: 200px
+
+}
+
+.right{
+    float: right;
+    padding-top: 25px;
+    width: 70%;
+    height: 200px
+
+}
+
+.inputs {
+    text-align: left;
+   padding-top: 13px;
+}
+.input-box {
+    margin-top: 8px;
+    height: 20px;
+    width: 300px;
+}
+textarea {
+    margin-top: 8px;
+    width: 300px;
+    height: 150px;
+}
